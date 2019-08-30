@@ -48,7 +48,6 @@
                 </el-main>
             </el-container>
         </el-container>
- 
     </div>
 </template>
 <script>
@@ -77,7 +76,6 @@ export default {
         let list=subrouting.getMenuData();
         this.UserinfoNew=list;
         this.userInfo=getUserinfoNew().data;
-    
     },
     mounted(){
 

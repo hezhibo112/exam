@@ -15,8 +15,6 @@ import plugins from "./plugins/"
 //挂载
 Vue.use(plugins)
 Vue.use(Editor)
-
-
 Vue.config.productionTip = false;
 new Vue({
   router,

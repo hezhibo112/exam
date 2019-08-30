@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import subrouting from "./subrouting";
+import Delog from "../views/delog/index.vue"
 import {getUserinfoNew,authorization} from "@/utils/userinfo"
 const{
     Login,
@@ -29,6 +30,10 @@ const router=new Router({
         {
             path:"/login",
             components:Login
+        },
+        {
+           path:"/delog",
+           component:Delog 
         },
         {
             path:"/home",
